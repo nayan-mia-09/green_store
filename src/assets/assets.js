@@ -6,6 +6,10 @@ import nestleLogo from './nestle.webp'
 import pranLogo from './pran.webp'
 import uniliverLogo from './uniliver.webp'
 import reckittLogo from './reckitt.webp'
+import logo from './logo.svg'
+import cart_icon from './shopping-cart.png'
+import wish_icon from './e-commerce.png'
+
 
 // Meats and fish Image 
 
@@ -75,6 +79,31 @@ import peyara from './peyara.webp'
 import sagor_kola from './shagor_kola.webp'
 import strawbery from './strawberry-500-gm.webp'
 
+// Group Logo
+
+import bakeLogo from './bake.png'
+import muttonLogo from './barbecue.png'
+import fruitsLogo from './fruit (1).png'
+import drinksLogo from './poinsettia.png'
+import seafoodLogo from './seafood.png'
+import vegetableLogo from './vegetables.png'
+
+export const assets = {
+  logo,
+  cart_icon,
+  wish_icon
+}
+
+export const groupLogo = [
+
+  {name: "Vegetables", image: vegetableLogo },
+  {name: "Fresh Fruits", image: fruitsLogo},
+  {name: "Meat", image: muttonLogo},
+  {name: "Seafood", image: seafoodLogo},
+  {name: "Baking", image: bakeLogo},
+  {name: "Drinks", image: drinksLogo}
+
+]
 
 export const brands_logo = [
     pranLogo,

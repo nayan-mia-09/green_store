@@ -4,12 +4,14 @@ import Home from "./pages/Home"
 import Brands from "./pages/Brands"
 import Products from "./pages/Products"
 import TrackOrder from "./pages/TrackOrder"
+import SecondNavbar from "./components/SecondNavbar"
 
 
 const App = () => {
   return (
-    <div className="container mx-auto">
+    <div >
        <Navbar/>
+       <SecondNavbar/>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>

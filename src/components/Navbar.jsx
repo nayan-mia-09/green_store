@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaSearch, FaTwitter, FaYoutube } f
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between mt-5">
+    <div className="flex justify-between mt-5 container mx-auto">
 
       <div >
         <ul className="flex gap-4 text-lg text-gray-700">
