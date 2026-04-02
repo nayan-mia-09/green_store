@@ -9,7 +9,8 @@ import reckittLogo from './reckitt.webp'
 import logo from './logo.svg'
 import cart_icon from './shopping-cart.png'
 import wish_icon from './e-commerce.png'
-
+import arrow_icon from './right-arrow.png'
+import hero_img from './hero.png'
 
 // Meats and fish Image 
 
@@ -88,10 +89,31 @@ import drinksLogo from './poinsettia.png'
 import seafoodLogo from './seafood.png'
 import vegetableLogo from './vegetables.png'
 
+
+// Product Logo 
+
+import meatsLogo from './meat.webp'
+import softDrinks from './soft-drinks.webp'
+import nuts from './popcorn-nuts.webp'
+import fruitsVegetables from './fruits-vegetables.webp'
+import freshFruits from './fresh-fruits.webp'
+import flour from './flour.webp'
+
+export const productLogo = [
+  {name: "Meat & Fish", image: meatsLogo },
+  {name: "Soft Drink", image: softDrinks,},
+  {name: "Nuts", image: nuts},
+  {name: "Fruits & Vegetables", image: fruitsVegetables},
+  {name: "Fresh Fruits", image: freshFruits},
+  {name: "Flour", image: flour}
+]
+
 export const assets = {
   logo,
   cart_icon,
-  wish_icon
+  wish_icon,
+  arrow_icon,
+  hero_img
 }
 
 export const groupLogo = [

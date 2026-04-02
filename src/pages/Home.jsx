@@ -1,9 +1,12 @@
+import Hero from "../components/Hero"
+import TopCategoryLogo from "../components/TopCategoryLogo"
 
 
 const Home = () => {
   return (
-    <div>
-      Home
+    <div className="container mx-auto px-4">
+      <Hero/>
+      <TopCategoryLogo/>
     </div>
   )
 }
