@@ -5,6 +5,7 @@ import Brands from "./pages/Brands"
 import Products from "./pages/Products"
 import TrackOrder from "./pages/TrackOrder"
 import SecondNavbar from "./components/SecondNavbar"
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
         <Route path="/track-order" element={<TrackOrder/>}/>
       </Routes>
       </BrowserRouter>
-     
+     <Footer/>
      
     </div>
   )

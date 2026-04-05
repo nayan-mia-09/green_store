@@ -98,6 +98,8 @@ import nuts from './popcorn-nuts.webp'
 import fruitsVegetables from './fruits-vegetables.webp'
 import freshFruits from './fresh-fruits.webp'
 import flour from './flour.webp'
+import mid_hero_img1 from './mid_hero_img1.png'
+import mid_hero_img2 from './mid_hero_img2.png'
 
 export const productLogo = [
   {name: "Meat & Fish", image: meatsLogo },
@@ -113,7 +115,9 @@ export const assets = {
   cart_icon,
   wish_icon,
   arrow_icon,
-  hero_img
+  hero_img,
+  mid_hero_img1,
+  mid_hero_img2
 }
 
 export const groupLogo = [
@@ -135,6 +139,13 @@ export const brands_logo = [
     reckittLogo,
     nestleLogo,
     maricoLogo,
+    maricoLogo,
+    nestleLogo,
+    reckittLogo,
+    uniliverLogo,
+    godrejLogo,
+    freshLogo,
+    pranLogo,
 ]
 
 export const meatsAndFish = [
@@ -205,3 +216,48 @@ export const fruits = [
   {  name: "Banana (Sagor)", price: 60, image: sagor_kola },
   {  name: "Strawberry", price: 250, image: strawbery },
 ];
+
+export const featureProduct = [
+  { "name": "Bashundhara Atta", "price": 140, "rating": "★★★★★", "reviews": 120, "image": bashundara_ata },
+  { "name": "Fresh Atta", "price": 130, "rating": "★★★★✰", "reviews": 90, "image": fresh_ata },
+  { "name": "Sunshine Atta", "price": 150, "rating": "★★★★✰", "reviews": 75, "image": sunshine_ata },
+  { "name": "Teer Atta", "price": 160, "rating": "★★★★★", "reviews": 150, "image": teer_ata },
+
+  { "name": "Dates (Khejur)", "price": 300, "rating": "★★★★★", "reviews": 200, "image": khejur },
+  { "name": "Dates 500g", "price": 180, "rating": "★★★★✰", "reviews": 110, "image": khejur_500mg },
+
+  { "name": "Kat Badam", "price": 400, "rating": "★★★★★", "reviews": 85, "image": kat_badam },
+  { "name": "Pesta Badam", "price": 900, "rating": "★★★★★", "reviews": 60, "image": pesta_badam },
+  { "name": "Vaja Badam", "price": 250, "rating": "★★★★✰", "reviews": 70, "image": vaja_badam },
+
+
+  { "name": "Tomato", "price": 50, "rating": "★★★★✰", "reviews": 55, "image": lal_tomato },
+  { "name": "Potato", "price": 35, "rating": "★★★★✰", "reviews": 65, "image": potato },
+  { "name": "Garlic", "price": 120, "rating": "★★★★✰", "reviews": 50, "image": roshun },
+
+ 
+  { "name": "Green Apple", "price": 300, "rating": "★★★★★", "reviews": 95, "image": green_apple },
+  { "name": "Orange", "price": 180, "rating": "★★★★✰", "reviews": 70, "image": komola },
+  { "name": "Malta", "price": 160, "rating": "★★★★✰", "reviews": 65, "image": malta },
+];
+
+export const midHeroProduct = [
+  { "name": "Bashundhara Atta", "price": 140, "rating": "★★★★★", "reviews": 120, "image": bashundara_ata },
+  { "name": "Fresh Atta", "price": 130, "rating": "★★★★✰", "reviews": 90, "image": fresh_ata },
+  { "name": "Sunshine Atta", "price": 150, "rating": "★★★★✰", "reviews": 75, "image": sunshine_ata },
+  { "name": "Teer Atta", "price": 160, "rating": "★★★★★", "reviews": 150, "image": teer_ata },
+]
+
+export const topRatedProduct = [
+  { "name": "Tomato", "price": 50, "rating": "★★★★✰", "reviews": 55, "image": lal_tomato },
+  { "name": "Potato", "price": 35, "rating": "★★★★✰", "reviews": 65, "image": potato },
+  { "name": "Garlic", "price": 120, "rating": "★★★★✰", "reviews": 50, "image": roshun },
+]
+
+export const bestSellingProduct = [
+  { "name": "Dates (Khejur)", "price": 300, "rating": "★★★★★", "reviews": 200, "image": khejur },
+  { "name": "Dates 500g", "price": 180, "rating": "★★★★✰", "reviews": 110, "image": khejur_500mg },
+  { "name": "Kat Badam", "price": 400, "rating": "★★★★★", "reviews": 85, "image": kat_badam },
+  { "name": "Pesta Badam", "price": 900, "rating": "★★★★★", "reviews": 60, "image": pesta_badam },
+  { "name": "Vaja Badam", "price": 250, "rating": "★★★★✰", "reviews": 70, "image": vaja_badam },
+]
